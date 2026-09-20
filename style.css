@@ -115,3 +115,21 @@ ul li {
     text-decoration: none;
     transform: translateY(-2px);
 }
+@media (max-width: 600px) {
+    body {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
